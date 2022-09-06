@@ -3,3 +3,14 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
+
+Console.WriteLine("Напишите цифру обозначающюю день недели");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number > 5 & number < 8 )
+{
+    Console.WriteLine("Этот день - выходной");
+}
+else
+{
+    Console.WriteLine("Это не выходной");
+}
